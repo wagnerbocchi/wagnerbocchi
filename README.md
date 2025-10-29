@@ -1,6 +1,6 @@
 ![](https://komarev.com/ghpvc/?username=iuricode&color=006bed)
 
-## Olá, sou Wagner Bocchi e sou Certificado pela Cisco Ethical Hacker | DevOps | Linux | Cibersegurança na empresa Smart Services and Solutions!
+## Olá, sou Wagner Bocchi e sou Certificado pela Cisco Ethical Hacker | Dev Jr | Python | Google Cloud GCP | Linux | 
 
 <div>
  <td>
