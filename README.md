@@ -49,7 +49,7 @@ Estou sempre aprendendo e buscando novos desafios!<br>
   <a href="https://www.instagram.com/wagnerbocchi/" target="_blank">
     <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
   </a>
-  <a href="https://www.linkedin.com/in/wagner-bocchi-279ba2b5" target="_blank">
+  <a href="https://www.linkedin.com/in/wagner-bocchi" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
 </div>
