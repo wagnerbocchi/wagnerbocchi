@@ -118,21 +118,26 @@ Profissional de **Cibersegurança** atuando na linha de frente entre Red e Blue 
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=wagnerbocchi&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00B7FF&icon_color=00B7FF" alt="GitHub Stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wagnerbocchi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00B7FF&langs_count=8" alt="Top Languages" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=wagnerbocchi&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00B7FF&icon_color=00B7FF&cache_seconds=86400" alt="GitHub Stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wagnerbocchi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00B7FF&langs_count=8&cache_seconds=86400" alt="Top Languages" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=wagnerbocchi&theme=tokyonight&hide_border=true&background=0D1117&ring=00B7FF&fire=00B7FF&currStreakLabel=00B7FF" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=wagnerbocchi&theme=tokyonight&hide_border=true&background=0D1117&ring=00B7FF&fire=00B7FF&currStreakLabel=00B7FF" alt="GitHub Streak" />
 </div>
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=wagnerbocchi&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies" />
 </div>
 
+<!--
+Snake animation — descomente após configurar a GitHub Action.
+Veja: .github/workflows/snake.yml no seu repo de perfil.
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/wagnerbocchi/wagnerbocchi/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </div>
+-->
 
 ---
 
