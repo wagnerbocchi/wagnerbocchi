@@ -4,7 +4,7 @@
 
 <div align="center">
   <a href="https://www.linkedin.com/in/wagner-bocchi" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://bocchi.company" target="_blank"><img src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=githubpages&logoColor=white" alt="Website"></a>
+  <a href="https://wagner.bocchi.company" target="_blank"><img src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=githubpages&logoColor=white" alt="Website"></a>
   <a href="https://www.instagram.com/wagnerbocchi/" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
   <img src="https://komarev.com/ghpvc/?username=wagnerbocchi&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="Profile views" />
 </div>
