@@ -21,7 +21,6 @@
 
 Profissional de **Cibersegurança** atuando na linha de frente entre Red e Blue Team — com foco em **detecção, resposta e automação de incidentes**. Atualmente estou implementando uma stack **SOC/SOAR completa do zero**, integrando SIEM, Case Management, Threat Intelligence e orquestração automatizada de playbooks.
 
-- 🔭 Construindo um **SOC + SOAR** com Wazuh, TheHive, Cortex e Shuffle
 - 🎯 Foco em **Ethical Hacking, Threat Hunting e Detection Engineering**
 - 🐍 Automação ofensiva/defensiva em **Python** e **Bash**
 - ☁️ Infraestrutura em **Linux (Arch/Ubuntu)** e **Google Cloud Platform**
