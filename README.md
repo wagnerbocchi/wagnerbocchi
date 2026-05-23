@@ -4,7 +4,7 @@
 
 <div align="center">
   <a href="README.md"><img src="https://img.shields.io/badge/%F0%9F%87%AC%F0%9F%87%A7_English-2C5364?style=for-the-badge" alt="English"></a>
-  <a href="README-pt.md"><img src="https://img.shields.io/badge/%F0%9F%87%A7%F0%9F%87%B7_Portugu%C3%AAs-555555?style=for-the-badge" alt="Português"></a>
+  <a href="README-PT.md"><img src="https://img.shields.io/badge/%F0%9F%87%A7%F0%9F%87%B7_Portugu%C3%AAs-555555?style=for-the-badge" alt="Português"></a>
 </div>
 
 <div align="center">
