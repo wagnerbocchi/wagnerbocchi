@@ -3,6 +3,11 @@
 </div>
 
 <div align="center">
+  <a href="README.md"><img src="https://img.shields.io/badge/%F0%9F%87%AC%F0%9F%87%A7_English-2C5364?style=for-the-badge" alt="English"></a>
+  <a href="README.pt-BR.md"><img src="https://img.shields.io/badge/%F0%9F%87%A7%F0%9F%87%B7_Portugu%C3%AAs-555555?style=for-the-badge" alt="Português"></a>
+</div>
+
+<div align="center">
   <a href="https://www.linkedin.com/in/wagner-bocchi" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://wagner.bocchi.company" target="_blank"><img src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=githubpages&logoColor=white" alt="Website"></a>
   <a href="https://www.instagram.com/wagnerbocchi/" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
@@ -10,31 +15,31 @@
 
 ---
 
-## 🛡️ Sobre mim
+## 🛡️ About me
 
-Profissional de **Cibersegurança** atuando na fronteira entre **Red e Blue Team**, com foco em **detecção, resposta a incidentes e automação**. Atualmente estou **arquitetando e implementando uma stack SOC/SOAR completa do zero** — do dimensionamento e instalação à engenharia de detecção e orquestração automatizada de playbooks.
+Cybersecurity professional working at the frontier between **Red and Blue Team**, focused on **detection, incident response, and automation**. Currently **architecting and implementing a complete SOC/SOAR stack from scratch** — from sizing and installation to detection engineering and automated playbook orchestration.
 
-- 🏗️ Desenhei uma arquitetura **faseada** (all-in-one → distribuída multi-node) com HA, DR e retenção de logs
-- 🎯 **Detection Engineering**: tuning de regras Wazuh, redução de ruído na fonte e mapeamento MITRE ATT&CK
-- 🤖 **SOAR**: enriquecimento e resposta automatizada (Cortex analyzers/responders + Shuffle workflows)
-- 🐍 Automação ofensiva e defensiva em **Python** e **Bash**
-- 🧠 Neurodivergente — penso naturalmente em sistemas, padrões e cadeias de ataque
-- 💬 Fala comigo sobre: SIEM/SOAR, threat hunting, pentest, hardening Linux, detection-as-code
+- 🏗️ Designed a **phased** architecture (all-in-one → distributed multi-node) with HA, DR, and log retention
+- 🎯 **Detection Engineering**: Wazuh rule tuning, noise reduction at the source, and MITRE ATT&CK mapping
+- 🤖 **SOAR**: automated enrichment and response (Cortex analyzers/responders + Shuffle workflows)
+- 🐍 Offensive and defensive automation in **Python** and **Bash**
+- 🧠 Neurodivergent — I naturally think in systems, patterns, and attack chains
+- 💬 Talk to me about: SIEM/SOAR, threat hunting, pentesting, Linux hardening, detection-as-code
 
 ---
 
-## 🔭 Stack SOC/SOAR que estou construindo
+## 🔭 The SOC/SOAR stack I'm building
 
 ```mermaid
 flowchart LR
-    EP["🖥️ Endpoints / Servidores<br/>(agents + logs)"] -->|eventos| WZ["🛡️ Wazuh<br/>SIEM / XDR"]
-    WZ -->|"alertas (level ≥ 10)"| TH["📋 TheHive 5<br/>Case Management"]
+    EP["🖥️ Endpoints / Servers<br/>(agents + logs)"] -->|events| WZ["🛡️ Wazuh<br/>SIEM / XDR"]
+    WZ -->|"alerts (level ≥ 10)"| TH["📋 TheHive 5<br/>Case Management"]
     TH -->|observables| CTX["🔬 Cortex 3<br/>Analyzers / Responders"]
-    CTX -->|veredito / IOC| TH
-    TH -->|webhook| SH["⚙️ Shuffle<br/>SOAR / Orquestração"]
-    SH -->|enriquecimento| CTX
-    SH -->|"contenção / resposta"| EP
-    SH -->|notificação| NT["🔔 Slack / E-mail"]
+    CTX -->|verdict / IOC| TH
+    TH -->|webhook| SH["⚙️ Shuffle<br/>SOAR / Orchestration"]
+    SH -->|enrichment| CTX
+    SH -->|"containment / response"| EP
+    SH -->|notification| NT["🔔 Slack / Email"]
 
     classDef siem fill:#1E1E2E,stroke:#00B7FF,color:#fff;
     classDef soar fill:#1E1E2E,stroke:#2E8B57,color:#fff;
@@ -42,11 +47,11 @@ flowchart LR
     class SH soar;
 ```
 
-> Pipeline de detecção → triagem → enriquecimento → resposta automatizada. Hospedado em cloud com alta disponibilidade e disaster recovery.
+> Detection → triage → enrichment → automated response pipeline. Cloud-hosted with high availability and disaster recovery.
 
 ---
 
-## 🎯 Áreas de atuação
+## 🎯 Focus areas
 
 <div align="center">
 
@@ -61,7 +66,7 @@ flowchart LR
 
 ---
 
-## 🛠️ Stack & Ferramentas
+## 🛠️ Stack & Tools
 
 #### 🔐 Security & SecOps
 <div>
@@ -101,22 +106,22 @@ flowchart LR
 
 ---
 
-## 💻 Projetos em destaque
+## 💻 Featured projects
 
-> Foco em **automação de segurança, exploração e ferramentas de Red/Blue Team**.
+> Focused on **security automation, exploitation, and Red/Blue Team tooling**.
 
 🔐 **[Broken Authentication](https://github.com/wagnerbocchi/broken-authentication)** &nbsp;`Python` &nbsp;·&nbsp; `Offensive`
-&nbsp;&nbsp;&nbsp;&nbsp;Suite para identificação de falhas de autenticação em apps web — brute-force, session fixation e bypass de fluxos de login.
+&nbsp;&nbsp;&nbsp;&nbsp;Suite for identifying authentication flaws in web apps — brute-force, session fixation, and login-flow bypass.
 
 📡 **[PKMID](https://github.com/wagnerbocchi/PKMID)** &nbsp;`Research` &nbsp;·&nbsp; `Networking`
-&nbsp;&nbsp;&nbsp;&nbsp;Pesquisa em análise e manipulação de pacotes/protocolos de rede.
+&nbsp;&nbsp;&nbsp;&nbsp;Research on network packet/protocol analysis and manipulation.
 
 🥷 **[h4cker (fork)](https://github.com/wagnerbocchi/h4cker)** &nbsp;`Knowledge Base` &nbsp;·&nbsp; `DFIR`
-&nbsp;&nbsp;&nbsp;&nbsp;Curadoria de recursos sobre ethical hacking, bug bounty e DFIR.
+&nbsp;&nbsp;&nbsp;&nbsp;Curated resources on ethical hacking, bug bounty, and DFIR.
 
 ---
 
-## 🏆 Certificações
+## 🏆 Certifications
 
 <table align="center">
   <tr>
@@ -146,7 +151,7 @@ flowchart LR
 <div align="center">
   <i>"In a world full of <code>0</code>s and <code>1</code>s, be the <code>exception</code>."</i>
   <br /><br />
-  <sub>Obrigado pela visita — abra uma <strong>issue</strong>, mande um <strong>PR</strong> ou troque ideia sobre segurança e tecnologia.</sub>
+  <sub>Thanks for stopping by — feel free to open an <strong>issue</strong>, send a <strong>PR</strong>, or chat about security and tech.</sub>
 </div>
 
 <div align="center">
