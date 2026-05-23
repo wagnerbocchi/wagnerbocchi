@@ -1,32 +1,48 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=Wagner%20Bocchi&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=SOC/SOAR%20Engineer%20%E2%80%A2%20Ethical%20Hacker%20%E2%80%A2%20Blue%20Team&descAlignY=58&descAlign=50&descSize=18" alt="Banner Wagner Bocchi" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=200&section=header&text=Wagner%20Bocchi&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=SOC%2FSOAR%20Engineer%20%E2%80%A2%20Ethical%20Hacker%20%E2%80%A2%20Detection%20Engineering&descAlignY=58&descAlign=50&descSize=17" alt="Banner Wagner Bocchi" />
 </div>
 
 <div align="center">
   <a href="https://www.linkedin.com/in/wagner-bocchi" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://wagner.bocchi.company" target="_blank"><img src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=githubpages&logoColor=white" alt="Website"></a>
   <a href="https://www.instagram.com/wagnerbocchi/" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
-  <img src="https://komarev.com/ghpvc/?username=wagnerbocchi&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="Profile views" />
-</div>
-
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00B7FF&center=true&vCenter=true&width=720&lines=Ethical+Hacker+certificado+pela+Cisco;Construindo+arquitetura+SOC%2FSOAR+do+zero;Wazuh+%E2%80%A2+TheHive+%E2%80%A2+Cortex+%E2%80%A2+Shuffle;Automa%C3%A7%C3%A3o+ofensiva+e+defensiva+em+Python+%26+Bash;Always+learning%2C+always+breaking%2C+always+building." alt="Typing SVG" />
-  </a>
 </div>
 
 ---
 
 ## 🛡️ Sobre mim
 
-Profissional de **Cibersegurança** atuando na linha de frente entre Red e Blue Team — com foco em **detecção, resposta e automação de incidentes**. Atualmente estou implementando uma stack **SOC/SOAR completa do zero**, integrando SIEM, Case Management, Threat Intelligence e orquestração automatizada de playbooks.
+Profissional de **Cibersegurança** atuando na fronteira entre **Red e Blue Team**, com foco em **detecção, resposta a incidentes e automação**. Atualmente estou **arquitetando e implementando uma stack SOC/SOAR completa do zero** — do dimensionamento e instalação à engenharia de detecção e orquestração automatizada de playbooks.
 
-- 🎯 Foco em **Ethical Hacking, Threat Hunting e Detection Engineering**
-- 🐍 Automação ofensiva/defensiva em **Python** e **Bash**
-- ☁️ Infraestrutura em **Linux (Arch/Ubuntu)** e **Google Cloud Platform**
-- 🧠 Neurodivergente — penso em sistemas, padrões e cadeias de ataque
-- 📚 Estudando **MITRE ATT&CK**, **OWASP Top 10** e **Detection-as-Code**
-- 💬 Fala comigo sobre: SIEM, SOAR, pentest, hardening Linux, exploits, automação
+- 🏗️ Desenhei uma arquitetura **faseada** (all-in-one → distribuída multi-node) com HA, DR e retenção de logs
+- 🎯 **Detection Engineering**: tuning de regras Wazuh, redução de ruído na fonte e mapeamento MITRE ATT&CK
+- 🤖 **SOAR**: enriquecimento e resposta automatizada (Cortex analyzers/responders + Shuffle workflows)
+- 🐍 Automação ofensiva e defensiva em **Python** e **Bash**
+- 🧠 Neurodivergente — penso naturalmente em sistemas, padrões e cadeias de ataque
+- 💬 Fala comigo sobre: SIEM/SOAR, threat hunting, pentest, hardening Linux, detection-as-code
+
+---
+
+## 🔭 Stack SOC/SOAR que estou construindo
+
+```mermaid
+flowchart LR
+    EP["🖥️ Endpoints / Servidores<br/>(agents + logs)"] -->|eventos| WZ["🛡️ Wazuh<br/>SIEM / XDR"]
+    WZ -->|"alertas (level ≥ 10)"| TH["📋 TheHive 5<br/>Case Management"]
+    TH -->|observables| CTX["🔬 Cortex 3<br/>Analyzers / Responders"]
+    CTX -->|veredito / IOC| TH
+    TH -->|webhook| SH["⚙️ Shuffle<br/>SOAR / Orquestração"]
+    SH -->|enriquecimento| CTX
+    SH -->|"contenção / resposta"| EP
+    SH -->|notificação| NT["🔔 Slack / E-mail"]
+
+    classDef siem fill:#1E1E2E,stroke:#00B7FF,color:#fff;
+    classDef soar fill:#1E1E2E,stroke:#2E8B57,color:#fff;
+    class WZ,TH,CTX siem;
+    class SH soar;
+```
+
+> Pipeline de detecção → triagem → enriquecimento → resposta automatizada. Hospedado em cloud com alta disponibilidade e disaster recovery.
 
 ---
 
@@ -35,10 +51,10 @@ Profissional de **Cibersegurança** atuando na linha de frente entre Red e Blue 
 <div align="center">
 
 ![Offensive Security](https://img.shields.io/badge/Offensive_Security-FF2D2D?style=for-the-badge&logo=hackthebox&logoColor=white)
-![Blue Team](https://img.shields.io/badge/Blue_Team-1E90FF?style=for-the-badge&logo=shield&logoColor=white)
-![SOC/SOAR](https://img.shields.io/badge/SOC%2FSOAR-6A0DAD?style=for-the-badge&logo=splunk&logoColor=white)
-![DFIR](https://img.shields.io/badge/DFIR-00897B?style=for-the-badge&logo=hackaday&logoColor=white)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-CF1F2E?style=for-the-badge&logo=mitre&logoColor=white)
+![Blue Team](https://img.shields.io/badge/Blue_Team-1E90FF?style=for-the-badge&logo=cloudflare&logoColor=white)
+![SOC/SOAR](https://img.shields.io/badge/SOC%2FSOAR-6A0DAD?style=for-the-badge&logo=elastic&logoColor=white)
+![Detection Eng](https://img.shields.io/badge/Detection_Engineering-00897B?style=for-the-badge&logo=elasticsearch&logoColor=white)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-CF1F2E?style=for-the-badge&logoColor=white)
 ![OWASP](https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white)
 
 </div>
@@ -49,12 +65,12 @@ Profissional de **Cibersegurança** atuando na linha de frente entre Red e Blue 
 
 #### 🔐 Security & SecOps
 <div>
-  <img src="https://img.shields.io/badge/Wazuh-000000?style=for-the-badge&logo=wazuh&logoColor=blue" alt="Wazuh" />
+  <img src="https://img.shields.io/badge/Wazuh-3C7BEF?style=for-the-badge&logoColor=white" alt="Wazuh" />
   <img src="https://img.shields.io/badge/TheHive-FF6F00?style=for-the-badge&logoColor=white" alt="TheHive" />
   <img src="https://img.shields.io/badge/Cortex-1E1E1E?style=for-the-badge&logoColor=white" alt="Cortex" />
   <img src="https://img.shields.io/badge/Shuffle-2E8B57?style=for-the-badge&logoColor=white" alt="Shuffle" />
   <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite" />
-  <img src="https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=gnu&logoColor=white" alt="Nmap" />
+  <img src="https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=white" alt="Nmap" />
   <img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white" alt="Metasploit" />
   <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark" />
 </div>
@@ -85,6 +101,21 @@ Profissional de **Cibersegurança** atuando na linha de frente entre Red e Blue 
 
 ---
 
+## 💻 Projetos em destaque
+
+> Foco em **automação de segurança, exploração e ferramentas de Red/Blue Team**.
+
+🔐 **[Broken Authentication](https://github.com/wagnerbocchi/broken-authentication)** &nbsp;`Python` &nbsp;·&nbsp; `Offensive`
+&nbsp;&nbsp;&nbsp;&nbsp;Suite para identificação de falhas de autenticação em apps web — brute-force, session fixation e bypass de fluxos de login.
+
+📡 **[PKMID](https://github.com/wagnerbocchi/PKMID)** &nbsp;`Research` &nbsp;·&nbsp; `Networking`
+&nbsp;&nbsp;&nbsp;&nbsp;Pesquisa em análise e manipulação de pacotes/protocolos de rede.
+
+🥷 **[h4cker (fork)](https://github.com/wagnerbocchi/h4cker)** &nbsp;`Knowledge Base` &nbsp;·&nbsp; `DFIR`
+&nbsp;&nbsp;&nbsp;&nbsp;Curadoria de recursos sobre ethical hacking, bug bounty e DFIR.
+
+---
+
 ## 🏆 Certificações
 
 <table align="center">
@@ -99,21 +130,6 @@ Profissional de **Cibersegurança** atuando na linha de frente entre Red e Blue 
 
 ---
 
-## 💻 Projetos em destaque
-
-> Repositórios com foco em **automação de segurança, exploração e ferramentas de Red/Blue Team**.
-
-🔐 **[Broken Authentication](https://github.com/wagnerbocchi/broken-authentication)** &nbsp;`Python`  
-&nbsp;&nbsp;&nbsp;&nbsp;Suite em Python para identificação de falhas de autenticação em aplicações web — brute-force, session fixation e bypass de fluxos de login.
-
-📡 **[PKMID](https://github.com/wagnerbocchi/PKMID)** &nbsp;`Research`  
-&nbsp;&nbsp;&nbsp;&nbsp;Projeto de pesquisa em análise e manipulação de pacotes/protocolos.
-
-🥷 **[h4cker (fork)](https://github.com/wagnerbocchi/h4cker)** &nbsp;`Knowledge Base`  
-&nbsp;&nbsp;&nbsp;&nbsp;Curadoria de recursos sobre ethical hacking, bug bounty e DFIR — referência pessoal e contribuições.
-
----
-
 ## 📊 GitHub Stats
 
 <div align="center">
@@ -122,28 +138,15 @@ Profissional de **Cibersegurança** atuando na linha de frente entre Red e Blue 
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=wagnerbocchi&theme=tokyonight&hide_border=true&background=0D1117&ring=00B7FF&fire=00B7FF&currStreakLabel=00B7FF" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=wagnerbocchi&theme=tokyonight&hide_border=true&background=0D1117&ring=00B7FF&fire=00B7FF&currStreakLabel=00B7FF" alt="GitHub Streak" />
 </div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=wagnerbocchi&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies" />
-</div>
-
-<!--
-Snake animation — descomente após configurar a GitHub Action.
-Veja: .github/workflows/snake.yml no seu repo de perfil.
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/wagnerbocchi/wagnerbocchi/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-</div>
--->
 
 ---
 
 <div align="center">
   <i>"In a world full of <code>0</code>s and <code>1</code>s, be the <code>exception</code>."</i>
   <br /><br />
-  <sub>Obrigado pela visita — fique à vontade para abrir uma <strong>issue</strong>, mandar um <strong>PR</strong> ou trocar ideia sobre segurança e tecnologia.</sub>
+  <sub>Obrigado pela visita — abra uma <strong>issue</strong>, mande um <strong>PR</strong> ou troque ideia sobre segurança e tecnologia.</sub>
 </div>
 
 <div align="center">
