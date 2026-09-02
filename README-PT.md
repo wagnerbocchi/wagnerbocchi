@@ -1,159 +1,186 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=200&section=header&text=Wagner%20Bocchi&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=SOC%2FSOAR%20Engineer%20%E2%80%A2%20Ethical%20Hacker%20%E2%80%A2%20Detection%20Engineering&descAlignY=58&descAlign=50&descSize=17" alt="Banner Wagner Bocchi" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0F1C,50:101B2D,100:163A5F&height=210&section=header&text=Wagner%20Bocchi&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Engenharia%20de%20Software%20%E2%80%A2%20Ciberseguran%C3%A7a%20%E2%80%A2%20Red%20Team%20%E2%80%A2%20AI%20Red%20Team%20%E2%80%A2%20SIEM%2FSOAR&descAlignY=57&descAlign=50&descSize=16" alt="Banner Wagner Bocchi" />
 </div>
 
 <div align="center">
-  <a href="README.md"><img src="https://img.shields.io/badge/%F0%9F%87%AC%F0%9F%87%A7_English-555555?style=for-the-badge" alt="English"></a>
-  <a href="README.pt-BR.md"><img src="https://img.shields.io/badge/%F0%9F%87%A7%F0%9F%87%B7_Portugu%C3%AAs-2C5364?style=for-the-badge" alt="Português"></a>
+  <a href="README.md"><img src="https://img.shields.io/badge/%F0%9F%87%AC%F0%9F%87%A7_English-30363D?style=for-the-badge" alt="English"></a>
+  <a href="README-PT.md"><img src="https://img.shields.io/badge/%F0%9F%87%A7%F0%9F%87%B7_Portugu%C3%AAs-163A5F?style=for-the-badge" alt="Português"></a>
 </div>
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/wagner-bocchi" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://wagner.bocchi.company" target="_blank"><img src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=githubpages&logoColor=white" alt="Website"></a>
-  <a href="https://www.instagram.com/wagnerbocchi/" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
+  <a href="https://www.linkedin.com/in/wagner-bocchi"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://wagner.bocchi.company"><img src="https://img.shields.io/badge/Portf%C3%B3lio-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfólio"></a>
+  <a href="https://bocchi.company"><img src="https://img.shields.io/badge/Bocchi_Company-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Bocchi Company"></a>
 </div>
 
 ---
 
-## 🛡️ Sobre mim
+## 👋 Sobre mim
 
-Profissional de **Cibersegurança** atuando na fronteira entre **Red e Blue Team**, com foco em **detecção, resposta a incidentes e automação**. Atualmente estou **arquitetando e implementando uma stack SOC/SOAR completa do zero** — do dimensionamento e instalação à engenharia de detecção e orquestração automatizada de playbooks.
+Sou **Engenheiro de Software e profissional de Cibersegurança**, com foco tanto em construir quanto em quebrar sistemas.
 
-- 🏗️ Desenhei uma arquitetura **faseada** (all-in-one → distribuída multi-node) com HA, DR e retenção de logs
-- 🎯 **Detection Engineering**: tuning de regras Wazuh, redução de ruído na fonte e mapeamento MITRE ATT&CK
-- 🤖 **SOAR**: enriquecimento e resposta automatizada (Cortex analyzers/responders + Shuffle workflows)
-- 🐍 Automação ofensiva e defensiva em **Python** e **Bash**
-- 🧠 Neurodivergente — penso naturalmente em sistemas, padrões e cadeias de ataque
-- 💬 Fala comigo sobre: SIEM/SOAR, threat hunting, pentest, hardening Linux, detection-as-code
+Minha atuação fica na interseção entre **engenharia de software, segurança ofensiva, engenharia defensiva, automação e segurança de IA**. Trabalho com arquitetura de aplicações e infraestrutura, APIs, containers, cloud, pesquisa de vulnerabilidades, pós-exploração, engenharia de detecção, automação de resposta a incidentes e desenvolvimento de ferramentas de segurança.
+
+Sou certificado pela **Cisco como Ethical Hacker** e atualmente desenvolvo o **Sigmaward**, uma plataforma SIEM/SOAR criada do zero na **Bocchi Company**.
+
+```text
+Construir sistemas. Quebrar premissas. Automatizar a defesa.
+```
+
+### No que atuo
+
+- 🧑‍💻 **Engenharia de Software** — backend, APIs, serviços distribuídos, automação e tooling
+- 🔴 **Red Team / Pentest** — web, infraestrutura, exploração, pós-exploração e cadeias de ataque
+- 🤖 **AI Red Team** — segurança de LLMs, prompt injection, abuso de agentes, tool misuse e testes adversariais
+- 🛡️ **Security Engineering** — SIEM/SOAR, detection engineering, telemetria e incident response
+- ⚙️ **Automação de Segurança** — ferramentas em Python/Bash, integrações, playbooks e workflows de resposta
+- 🧠 **Threat Modeling** — MITRE ATT&CK, attack paths, arquitetura de aplicações e pensamento adversarial
 
 ---
 
-## 🔭 Stack SOC/SOAR que estou construindo
+## 🛡️ Sigmaward
+
+O **Sigmaward** é hoje meu principal projeto de engenharia de segurança: uma plataforma comercial de **SIEM / SOAR / SOC** desenvolvida como um produto unificado, em vez de uma composição de ferramentas desconectadas.
+
+A proposta é oferecer uma única camada operacional para telemetria, detecção, investigação, automação e resposta.
 
 ```mermaid
 flowchart LR
-    EP["🖥️ Endpoints / Servidores<br/>(agents + logs)"] -->|eventos| WZ["🛡️ Wazuh<br/>SIEM / XDR"]
-    WZ -->|"alertas (level ≥ 10)"| TH["📋 TheHive 5<br/>Case Management"]
-    TH -->|observables| CTX["🔬 Cortex 3<br/>Analyzers / Responders"]
-    CTX -->|veredito / IOC| TH
-    TH -->|webhook| SH["⚙️ Shuffle<br/>SOAR / Orquestração"]
-    SH -->|enriquecimento| CTX
-    SH -->|"contenção / resposta"| EP
-    SH -->|notificação| NT["🔔 Slack / E-mail"]
+    A[Endpoints / Servidores / Cloud] --> B[Agentes Sigmaward]
+    B --> C[Pipeline de Telemetria e Eventos]
+    C --> D[Motor de Detecção]
+    D --> E[Alertas e Incidentes]
+    E --> F[Investigação / Case Management]
+    F --> G[SOAR / Playbooks]
+    G --> H[Resposta Automatizada]
+    H --> A
 
-    classDef siem fill:#1E1E2E,stroke:#00B7FF,color:#fff;
-    classDef soar fill:#1E1E2E,stroke:#2E8B57,color:#fff;
-    class WZ,TH,CTX siem;
-    class SH soar;
+    D --> I[Mapeamento MITRE ATT&CK]
+    F --> J[Threat Intelligence / Enrichment]
 ```
 
-> Pipeline de detecção → triagem → enriquecimento → resposta automatizada. Hospedado em cloud com alta disponibilidade e disaster recovery.
+### Áreas de engenharia dentro do Sigmaward
+
+- Agentes de segurança multi-OS
+- Ingestão e normalização de eventos
+- Motor de detecção e correlação
+- Ciclo de vida de alertas e incidentes
+- Case management e workflows de investigação
+- Resposta automatizada e orquestração de playbooks
+- Threat intelligence e enrichment
+- Mapeamento MITRE ATT&CK
+- Arquitetura multi-tenant
+- APIs e integrações
+- Dashboards e UX orientados à operação de SOC
+
+🌐 **Site público:** [sigmaward-website](https://github.com/wagnerbocchi/sigmaward-website)
 
 ---
 
-## 🎯 Áreas de atuação
+## 🎯 Áreas principais
 
 <div align="center">
 
-![Offensive Security](https://img.shields.io/badge/Offensive_Security-FF2D2D?style=for-the-badge&logo=hackthebox&logoColor=white)
-![Blue Team](https://img.shields.io/badge/Blue_Team-1E90FF?style=for-the-badge&logo=cloudflare&logoColor=white)
-![SOC/SOAR](https://img.shields.io/badge/SOC%2FSOAR-6A0DAD?style=for-the-badge&logo=elastic&logoColor=white)
-![Detection Eng](https://img.shields.io/badge/Detection_Engineering-00897B?style=for-the-badge&logo=elasticsearch&logoColor=white)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-CF1F2E?style=for-the-badge&logoColor=white)
-![OWASP](https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white)
+![Software Engineering](https://img.shields.io/badge/Software_Engineering-1F6FEB?style=for-the-badge&logo=github&logoColor=white)
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-0D1117?style=for-the-badge&logo=hackthebox&logoColor=white)
+![Red Team](https://img.shields.io/badge/Red_Team-D32F2F?style=for-the-badge&logo=kalilinux&logoColor=white)
+![AI Red Team](https://img.shields.io/badge/AI_Red_Team-7C3AED?style=for-the-badge&logo=openai&logoColor=white)
+![SIEM SOAR](https://img.shields.io/badge/SIEM%2FSOAR-0E7490?style=for-the-badge&logo=elastic&logoColor=white)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-CF1F2E?style=for-the-badge)
 
 </div>
 
 ---
 
-## 🛠️ Stack & Ferramentas
+## 🛠️ Stack tecnológica
 
-#### 🔐 Security & SecOps
-<div>
-  <img src="https://img.shields.io/badge/Wazuh-3C7BEF?style=for-the-badge&logoColor=white" alt="Wazuh" />
-  <img src="https://img.shields.io/badge/TheHive-FF6F00?style=for-the-badge&logoColor=white" alt="TheHive" />
-  <img src="https://img.shields.io/badge/Cortex-1E1E1E?style=for-the-badge&logoColor=white" alt="Cortex" />
-  <img src="https://img.shields.io/badge/Shuffle-2E8B57?style=for-the-badge&logoColor=white" alt="Shuffle" />
-  <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite" />
-  <img src="https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=white" alt="Nmap" />
-  <img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white" alt="Metasploit" />
-  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark" />
-</div>
+### Linguagens & Engenharia
 
-#### 💻 Languages
 <div>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
 </div>
 
-#### ☁️ Infra & Cloud
+### Segurança
+
+<div>
+  <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite" />
+  <img src="https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge" alt="Nmap" />
+  <img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white" alt="Metasploit" />
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark" />
+  <img src="https://img.shields.io/badge/MITRE_ATT%26CK-CF1F2E?style=for-the-badge" alt="MITRE ATT&CK" />
+  <img src="https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP" />
+</div>
+
+### Infraestrutura & DevOps
+
 <div>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" alt="Arch Linux" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="GCP" />
+  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud" />
   <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />
-</div>
-
-#### 🧰 DevOps & Tools
-<div>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white" alt="Neovim" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+</div>
+
+### AI / Segurança de LLMs
+
+<div>
+  <img src="https://img.shields.io/badge/LLM_Security-7C3AED?style=for-the-badge&logo=openai&logoColor=white" alt="LLM Security" />
+  <img src="https://img.shields.io/badge/AI_Agents-111827?style=for-the-badge&logo=probot&logoColor=white" alt="AI Agents" />
+  <img src="https://img.shields.io/badge/Prompt_Injection-B91C1C?style=for-the-badge" alt="Prompt Injection" />
+  <img src="https://img.shields.io/badge/Adversarial_Testing-6D28D9?style=for-the-badge" alt="Adversarial Testing" />
 </div>
 
 ---
 
-## 💻 Projetos em destaque
+## 🚀 Repositórios selecionados
 
-> Foco em **automação de segurança, exploração e ferramentas de Red/Blue Team**.
-
-🔐 **[Broken Authentication](https://github.com/wagnerbocchi/broken-authentication)** &nbsp;`Python` &nbsp;·&nbsp; `Offensive`
-&nbsp;&nbsp;&nbsp;&nbsp;Suite para identificação de falhas de autenticação em apps web — brute-force, session fixation e bypass de fluxos de login.
-
-📡 **[PKMID](https://github.com/wagnerbocchi/PKMID)** &nbsp;`Research` &nbsp;·&nbsp; `Networking`
-&nbsp;&nbsp;&nbsp;&nbsp;Pesquisa em análise e manipulação de pacotes/protocolos de rede.
-
-🥷 **[h4cker (fork)](https://github.com/wagnerbocchi/h4cker)** &nbsp;`Knowledge Base` &nbsp;·&nbsp; `DFIR`
-&nbsp;&nbsp;&nbsp;&nbsp;Curadoria de recursos sobre ethical hacking, bug bounty e DFIR.
+| Projeto | Área | Descrição |
+|---|---|---|
+| [**Sigmaward Website**](https://github.com/wagnerbocchi/sigmaward-website) | SIEM/SOAR · Engenharia de Software | Site público da plataforma Sigmaward, desenvolvido com Next.js, TypeScript e Tailwind CSS. |
+| [**Web Security Academy Series**](https://github.com/wagnerbocchi/Web-Security-Academy-Series) | Web Security | Estudos práticos e pesquisa ofensiva sobre vulnerabilidades web. |
+| [**Pentest Cheat Sheet**](https://github.com/wagnerbocchi/Pentestcheatsheet) | Pentest | Notas, comandos e referências para workflows de penetration testing. |
+| [**Pentest Lab**](https://github.com/wagnerbocchi/pentest-lab) | Segurança Ofensiva | Ambiente de laboratório e material para testes de segurança e prática de exploração. |
+| [**Darkchecker**](https://github.com/wagnerbocchi/darkchecker) | Security Tooling | Tooling e experimentação voltados à segurança. |
+| [**Bocchi Company Web**](https://github.com/wagnerbocchi/bocchi-company-web) | Engenharia de Software | Projeto web público da Bocchi Company. |
 
 ---
 
-## 🏆 Certificações
+## 🏆 Certificação
 
-<table align="center">
-  <tr>
-    <td align="center" width="200">
-      <img src="https://images.credly.com/size/340x340/images/642ec2c6-43e2-4d2a-b2d4-d2f2decfae5d/blob" width="80" alt="Cisco Ethical Hacker" /><br />
-      <strong>Ethical Hacker</strong><br />
-      <sub>Cisco Networking Academy</sub>
-    </td>
-  </tr>
-</table>
+<div align="center">
+
+<img src="https://images.credly.com/size/340x340/images/642ec2c6-43e2-4d2a-b2d4-d2f2decfae5d/blob" width="90" alt="Cisco Ethical Hacker" />
+
+**Cisco Ethical Hacker**  
+Cisco Networking Academy
+
+</div>
 
 ---
 
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=wagnerbocchi&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00B7FF&icon_color=00B7FF&cache_seconds=86400" alt="GitHub Stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wagnerbocchi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00B7FF&langs_count=8&cache_seconds=86400" alt="Top Languages" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=wagnerbocchi&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&cache_seconds=86400" alt="GitHub Stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wagnerbocchi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&langs_count=8&cache_seconds=86400" alt="Top Languages" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=wagnerbocchi&theme=tokyonight&hide_border=true&background=0D1117&ring=00B7FF&fire=00B7FF&currStreakLabel=00B7FF" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=wagnerbocchi&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="GitHub Streak" />
 </div>
 
 ---
 
 <div align="center">
-  <i>"In a world full of <code>0</code>s and <code>1</code>s, be the <code>exception</code>."</i>
+  <strong>Segurança não é um produto. É um processo de engenharia.</strong>
   <br /><br />
-  <sub>Obrigado pela visita — abra uma <strong>issue</strong>, mande um <strong>PR</strong> ou troque ideia sobre segurança e tecnologia.</sub>
+  <sub>Engenharia de Software · Segurança Ofensiva · Engenharia Defensiva · Segurança de IA</sub>
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=120&section=footer" alt="footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:163A5F,50:101B2D,100:0A0F1C&height=120&section=footer" alt="footer" />
 </div>
